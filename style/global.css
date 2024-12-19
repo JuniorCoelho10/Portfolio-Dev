@@ -46,6 +46,41 @@ img {
   gap:16px;
 }
 
-body {
-  /* background-color: red; */
+.technology-tag {
+  display: flex;
+  gap:8px;
+  color:var(--gray-500);
+  padding: 9px 16px;
+  background-color:var(--gray-300);
+  border-radius: 999px;
+  align-content: center;
+}
+
+.project-card {
+  background-color:var(--gray-300) ;
+  max-width: 330px;
+  padding: 12px 12px 17px 12px;
+  border-radius: 12px;
+  
+  img {
+    width: 308px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  span {
+    display: block;
+    margin-bottom: 8px;
+    color:var(--gray-600);
+  }
+
+  p {
+    color:var(--gray-500);
+  }
+
+  &:hover {
+    outline:1px solid var(--gray-400);
+    
+
+  }
 }

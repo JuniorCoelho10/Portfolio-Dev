@@ -46,16 +46,6 @@
 }
 
 
-.technology-tag {
-  display: flex;
-  gap:8px;
-  color:var(--gray-500);
-  padding: 9px 16px;
-  background-color:var(--gray-300);
-  border-radius: 999px;
-  align-content: center;
-
-}
 
 
 
