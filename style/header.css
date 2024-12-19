@@ -1,0 +1,58 @@
+
+#introduction {
+    background-image: url(../assets/images/Background_Intro.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    position: relative;
+
+    &::after {
+      content: '';
+      display:block;
+      background-image: url(../assets/icons/CaretDoubleDown.svg);
+      width: 32px;
+      height: 32px;
+      position:absolute;
+      bottom:57px;
+    }
+
+    
+
+    section {
+      justify-items: center;
+      max-width: 680px;
+      margin-top: 120px;
+
+      img {
+        margin-bottom:56px;
+      }
+
+      span{
+        display: inline-block;
+        margin-bottom:8px;
+        color: var(--gray-500);
+      }
+
+      h1 {
+        margin-bottom:20px;
+        color:var(--gray-600);
+      }
+
+      p {
+        margin-bottom: 80px;
+        color:var(--gray-400);
+
+      }
+    }
+
+
+
+    #container-technologies {
+      display: flex;
+      margin-bottom:183px;
+
+    }
+}
+
