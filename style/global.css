@@ -84,3 +84,26 @@ img {
 
   }
 }
+
+.my-service-card {
+  padding: 20px;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  width:280px;
+  
+
+  img {
+    margin-bottom:20px;
+  }
+  h3 {
+    color:var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: var(--gray-500);
+  }
+
+
+  
+}
