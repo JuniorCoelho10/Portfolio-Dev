@@ -24,9 +24,13 @@
       justify-items: center;
       max-width: 680px;
       margin-top: 120px;
+      display: grid;
+      
 
       img {
+        margin-inline:auto ;
         margin-bottom:56px;
+        
       }
 
       span{
