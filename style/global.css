@@ -176,17 +176,17 @@ img {
         height: 28px;
     }
 
-    .github {
-      background-image: url(../assets/icons/GithubLogoBlue.svg);
-      width: 28px;
-      height: 28px;
-    }
+      .github {
+        background-image: url(../assets/icons/GithubLogoBlue.svg);
+        width: 28px;
+        height: 28px;
+      }
 
-    .email {
-      background-image: url(../assets/icons/EnvelopesimpleBlue.svg);
-      width: 28px;
-      height: 28px;
-    }
+      .email {
+        background-image: url(../assets/icons/EnvelopesimpleBlue.svg);
+        width: 28px;
+        height: 28px;
+      }
   }
 }
 
